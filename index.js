@@ -24,6 +24,11 @@ const display = document.getElementById("display")
 const numbers = document.querySelectorAll(".numbers")
 numbers.forEach(function (number) {
     number.addEventListener('click', function () {
-        display.value += number.textContent
+        display.value += number.textContent;
     })
+})
+
+const clean = document.getElementById("clean")
+clean.addEventListener('click', function () {
+    display.value = "";
 })
