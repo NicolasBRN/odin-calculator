@@ -19,3 +19,11 @@ function operate (a, b, operator) {
         case "/": return divide(a,b);
     }
 }
+
+const display = document.getElementById("display")
+const numbers = document.querySelectorAll(".numbers")
+numbers.forEach(function (number) {
+    number.addEventListener('click', function () {
+        display.value += number.textContent
+    })
+})
