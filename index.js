@@ -1,5 +1,5 @@
 function add (a, b) {
-    return a + b;
+    return +a + +b;
 }
 function subtract (a, b) {
     return a - b;
@@ -32,3 +32,26 @@ const clean = document.getElementById("clean")
 clean.addEventListener('click', function () {
     display.value = "";
 })
+
+let operator;
+let a;
+
+const operators = document.querySelectorAll(".operators")
+operators.forEach(function (oper) {
+    oper.addEventListener('click', function () {
+        
+
+        a = display.value;
+        display.value = "";
+
+        operator = oper.textContent
+        console.log(operator)
+    })
+})
+
+const equal = document.getElementById("equal")
+equal.addEventListener('click', function() {
+    let b = display.value;
+    display.value = operate(a, b, operator);
+})
+
