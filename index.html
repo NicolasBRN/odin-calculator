@@ -2,37 +2,40 @@
 <html>
     <head>
         <title>Calculator</title>
+        <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
         <meta charset="utf-8">
         <script src="index.js" defer></script>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <input type="text" id="display">
-        <div>
-            <button class ="numbers">1</button>
-            <button class ="numbers">2</button>
-            <button class ="numbers">3</button>
-            <button id="x" class="operators">*</button>
-        </div>
-        <div>
-            <button class ="numbers">4</button>
-            <button class ="numbers">5</button>
-            <button class ="numbers">6</button>
-            <button id="-" class="operators">-</button>
-        </div>
-        <div>
-            <button class ="numbers">7</button>
-            <button class ="numbers">8</button>
-            <button class ="numbers">9</button>
-            <button id="+" class="operators">+</button>
-        </div>
-        <div>
-
-            <button id="/" class="operators">/</button>
-            <button class="numbers">0</button>
-            <button id="clean">C</button>
-            <button id="equal">=</button>
+        <div id="calculator">
+            <input type="text" id="display">
+            <div>
+                <button class ="numbers">1</button>
+                <button class ="numbers">2</button>
+                <button class ="numbers">3</button>
+                <button id="x" class="operators op-color">*</button>
+            </div>
+            <div>
+                <button class ="numbers">4</button>
+                <button class ="numbers">5</button>
+                <button class ="numbers">6</button>
+                <button id="-" class="operators op-color">-</button>
+            </div>
+            <div>
+                <button class ="numbers">7</button>
+                <button class ="numbers">8</button>
+                <button class ="numbers">9</button>
+                <button id="+" class="operators op-color">+</button>
+            </div>
+            <div>
+    
+                <button id="/" class="operators op-color">/</button>
+                <button class="numbers">0</button>
+                <button id="clean" class="op-color">C</button>
+                <button id="equal" class="op-color">=</button>
+            </div>
         </div>
     </body>
 </html>
