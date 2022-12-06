@@ -12,6 +12,12 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: azure;
+}
+
+#title {
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 40px;
 }
 
 #display {
@@ -37,10 +43,12 @@ button:active {
 
 .numbers {
     border: outset 1.5px rgb(105, 214, 214);
+    background-color: rgb(145, 239, 239);
 }
 
 .op-color {
     border: outset 1.5px rgb(250, 193, 158);
+    background-color: rgb(253, 179, 133);
 }
 
 
@@ -57,5 +65,6 @@ button:active {
     flex-direction: column;
     width: 132.6px;
     gap: 4px;
+    margin-bottom: 30px;
 }
 
