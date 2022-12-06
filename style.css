@@ -47,7 +47,7 @@ button:active {
 
 
 #calculator {
-    zoom: 2.5;
+    zoom: 200%;
     background-color: rgb(164, 211, 69);
     padding: 12px;
     margin: 0px;
