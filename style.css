@@ -1,0 +1,52 @@
+html { 
+    margin: 0px;
+    padding: 0px;
+}
+
+#display {
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 4px;
+    border: none;
+    background-color: rgb(67, 145, 67);
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    border-radius: 6px;
+}
+
+button:active {
+    border: inset 1.5px;
+}
+
+.numbers {
+    border: outset 1.5px rgb(105, 214, 214);
+}
+
+.op-color {
+    border: outset 1.5px rgb(250, 193, 158);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#calculator {
+    background-color: rgb(164, 211, 69);
+    padding: 12px;
+    border-radius: 8px;
+    border: outset 4px green;
+    display: flex;
+    flex-direction: column;
+    width: 132.6px;
+    gap: 4px;
+}
+
